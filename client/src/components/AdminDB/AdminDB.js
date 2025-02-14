@@ -9,7 +9,6 @@ import { StarRate } from '@material-ui/icons';
 const AdminDB = () => {
     const classes = useStyle();
     const dispatch = useDispatch();
-
     const user = JSON.parse(localStorage.getItem('userProfile'));
 
     useEffect(() => {
